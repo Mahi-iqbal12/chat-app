@@ -44,7 +44,7 @@ This showcases Docker's native logging integration with application behavior.
 
 through git you can:
 
-                            git clone https://github.com/yourusername/chat-app.git
+                            git clone https://github.com/Mahi-iqbal12/chat-app.git
                             cd chat-app
                             cd chat-server
                             docker build -t chat-service .
