@@ -1,0 +1,17 @@
+ Q) What inspired your application idea, and how did you incorporate creativity?
+ Ans) The main inspiration was to understand how the Chat-app works and how those tools plays an important part in showing messages in real time (websocket) and also for having good understing regarding to it. I incorporated creativity by putting up the logs of when user is connected/disconnected and when they send the message with the time stamp. on design wise i tried to make it a little better with color theme of my own 
+
+ Q) What challenges did you face in designing or implementing the microservices architecture without Docker Compose, and how did you address them?
+ Ans) without the help of Docker Compose, we would have to manually configure it, connect it with each regions (ui to database) and manually start the services one by one, which is pretty hard and also timeconsuming, other then that mainting it's health will be pretty challenging too.
+
+Q) How did Docker’s features (e.g., networking, volumes, multi-stage builds) make your development process easier or more robust?
+Ans) Using volumes facilitates data persistence and sharing configurations between services to ensure consistancy, isolated and secure communication between containers for simplifying service interactions, creating leaner images by separating build and runtime environments for enhancing security and performance, these functionalities is what made it easier to deploy and make this project without going through every single services manually.
+
+Q) How could your application be extended or improved in a production environment?
+Ans) following are the points which highlights how my application can be extended or improved:
+
+        1) Implementing container orchestration tools like Kubernetes can aid in scaling services based on demand.
+
+        2) Integrating monitoring tools such as Prometheus or Grafana can provide insights into application performance and health.
+
+        3) Employing security best practices, like using minimal base images and regular vulnerability scanning, can enhance the application's security posture.
